@@ -20,4 +20,4 @@ legend("show");
 set(h,'Units','Inches');
 pos = get(h,'Position');
 set(h,'PaperPositionMode','Auto','PaperUnits','Inches','PaperSize',[pos(3), pos(4)])
-print(h,'speed.pdf','-dpdf','-r0')
+print(h,'speedC.pdf','-dpdf','-r0')
